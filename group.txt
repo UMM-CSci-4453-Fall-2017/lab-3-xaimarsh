@@ -1,4 +1,5 @@
 Group Name: Xaimarsh
 Group Members:
+Spencer Hammersten
 Marshall Hoffmann
 Xaitheng Yang
