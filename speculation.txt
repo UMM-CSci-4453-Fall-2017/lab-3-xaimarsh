@@ -1,0 +1,15 @@
+﻿Marshall Hoffmann, Xaitheng Yang
+
+Prof. Peter Dolan
+
+CSCI 4453
+
+6 September 2017
+
+Our Point of Sales System
+
+	Our first main system would be an inventory system. It would include how much of each product we have, and the prices of each item. It would also include delivery information for restocking.  Another potential feature we could add would be notes about each product that could be added by managers. This feature could be used to instruct employees on where efforts to sell could be focused (ex. “We’re not selling enough hot dogs”).  In addition it would keep a stock keeping unit (SKU) number to reference each item by, in order to facilitate interaction with the sales system.  Each of these could be a column in the same table, with how much of each product being two columns (unit of measurement and amount).
+
+	Our second main system we could implement is a sales system. This system would have items sold, how these items were sold (ex. Combo Deals, Sales), along with meta data on the sale (ex. Time of sale, payment type, cashier, a receipt to act as a Primary key). This would be the area working most closely with cashiers, and would receive pricing information by using item SKU numbers to reference the inventory system.
+
+	Our third main system would be a management system. Inside would be information useful to management but not the typical employee (ex. Upkeep costs, payroll, employee performance information). The information stored in this system would be produced using information found in the other two systems (ex. Employee performance could include the sum of sales made by each employee).
